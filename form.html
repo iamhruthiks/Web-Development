@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="main.html">
+        <div>
+            <h1>Register</h1>
+        </div>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="username" id="name" placeholder="enter name" required minlength="3" maxlength="30">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="useremail" id="email" placeholder="enter mail id" required>
+        </div>
+        <div>
+            <label for="password">Name:</label>
+            <input type="passoword" name="userpassword" id="password" placeholder="enter password" required>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="selectedgender" id="gender" value="male" required>male
+            <input type="radio" name="selectedgender" id="gender" value="female" required>female
+        </div>
+        <div>
+            <label for="select">Age group
+                <select name="secletedoption" id="select">
+                    <option value="21-30">21-30</option>
+                    <option value="31-40">31-40</option>
+                    <option value="41-50">41-50</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <button>submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
